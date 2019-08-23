@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatQr", "AutomatQr\AutomatQr.csproj", "{47F7954D-8CA9-4FD5-A1B1-0EA545293880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatQr", "AutomatQr\AutomatQr.csproj", "{47F7954D-8CA9-4FD5-A1B1-0EA545293880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{8FA30A31-E2B3-42CC-B5B7-E9ED230EC246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{47F7954D-8CA9-4FD5-A1B1-0EA545293880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F7954D-8CA9-4FD5-A1B1-0EA545293880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F7954D-8CA9-4FD5-A1B1-0EA545293880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA30A31-E2B3-42CC-B5B7-E9ED230EC246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA30A31-E2B3-42CC-B5B7-E9ED230EC246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA30A31-E2B3-42CC-B5B7-E9ED230EC246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA30A31-E2B3-42CC-B5B7-E9ED230EC246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

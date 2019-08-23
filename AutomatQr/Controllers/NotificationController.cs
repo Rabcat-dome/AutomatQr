@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+
 
 namespace AutomatQr.Controllers
 {
@@ -26,20 +28,11 @@ namespace AutomatQr.Controllers
 
         // POST api/notification
         [HttpPost]
-        public void Post([FromBody] string value)
+        public JsonResult Post([FromBody] string value)
         {
+            return new JsonResult(new {});
         }
 
-        // PUT api/notification/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/notification/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
+
 }
